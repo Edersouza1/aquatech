@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+.title {
+    color: rgb(86, 86, 209);
+    width: fit-content;
+    font-weight: 500px;
+}
+
+.navbar{
+    width: 300px;
+    color: rgb(158, 10, 133);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    border-bottom:  3px solid rgb(86, 86, 233);
+}
+
+.container {
+    border: 5px color red;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container{
+    justify-content: space-between;
+}
